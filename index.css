@@ -1,0 +1,299 @@
+* {
+    margin: 0;padding: 0;
+  }
+  body {
+    background-color: #f2f2f2;
+  }
+  header {
+    background: url(./image/mount.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+  }
+  header .mask {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .65);
+    overflow: hidden;
+  }
+  header .content {
+    width: 970px;
+    margin: 208px auto 0;
+    color: rgba(255, 255, 255, .7);
+  }
+  /* hello world 容器 */
+  .hello .title {
+    font-size:62px;
+    font-weight:200;
+    color:rgba(255,255,255,1);
+    line-height:72px;
+    text-align: center;
+  }
+  .hello .text {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 32px;
+    width: 766px;
+    margin: 86px auto 0;
+    text-align: center;
+  }
+  /* 表单 */
+  .create {
+    font-family:Montserrat-Light;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 2px;
+    margin-top: 104px;
+    margin-bottom: 220px;
+    padding: 61px 100px 52px;
+  }
+  .create .title {
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .create .profile {
+    text-align: center;
+    font-size: 12px;
+    color: rgba(255, 255, 255, .3);
+    margin: 19px auto 45px;
+  }
+  .create .input input {
+      outline: none;
+      border: 1px solid rgba(255, 255, 255, .2);
+      width: 292px;
+      height: 50px;
+      background: rgba(0, 0, 0, 0);
+      border-radius: 2px;
+      color: #fff;
+      text-indent: 22px;
+  }
+  .create .input {
+      display: flex;
+      justify-content: space-between;
+  }
+  .create .input input[type="button"] {
+    width:125px;
+    color: #000;
+    background:rgba(255,255,255,1);
+    border-radius:2px;
+    cursor: pointer;
+    text-indent: 0;
+  }
+  /*  */
+  .introduce {
+      width: 100%;
+      box-sizing: border-box;
+      background-color: #fff;
+  }
+  .introduce-content {
+      text-align: center;
+      padding-top: 79px;
+  }
+  .introduce-content .title {
+    font-size: 14px;
+    font-family:Montserrat-Light;
+    font-weight:300;
+    color:rgba(20,20,20,1);
+    line-height:28px;
+  }
+  .introduce-content .text {
+    width: 657px;
+    font-size:42px;
+    font-family:Montserrat-ExtraLight;
+    font-weight:200;
+    color:rgba(20,20,20,1);
+    line-height:52px;
+    margin: 39px auto 0;
+  }
+  .introduce .section {
+      width: 986px;
+      margin: 85px auto 0;
+      padding-bottom: 102px;
+      display: flex;
+  }
+  .spacing {
+      margin-left: 250px;
+  }
+  .section .option {
+      box-sizing: border-box;
+      display: flex;
+  }
+  .section .option .icon {
+      margin-right: 31px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+  .section .option .name {
+    font-size:20px;
+    font-family:Montserrat-Light;
+    font-weight:300;
+    color:rgba(20,20,20,1);
+    line-height:32px;
+  }
+  .section .option .des {
+    width:348px;
+    font-size:16px;
+    font-family:Montserrat-ExtraLight;
+    font-weight:200;
+    color:rgba(20,20,20,1);
+    line-height:26px;
+    opacity:0.7;
+  }
+  .section .option .icon.iphoneIcon {
+    width: 30px;
+    height: 49px;
+    background-image: url(./image/Iphone-Icon.png);
+  }
+  .section .option .icon.checkIcon {
+    width: 40px;
+    height: 37px;
+    background-image: url(./image/Check-Icon.png);
+}
+  .section .option .icon.pencilIcon {
+    width: 50px;
+    height: 49px;
+    background-image: url(./image/Pencil-Icon.png);
+}
+  .section .option .icon.settingsIcon {
+    width: 50px;
+    height: 42px;
+    background-image: url(./image/Settings-Icon.png);
+}
+  .section-line {
+    display: flex;
+    justify-content: space-between;
+}
+/* 产品说明 */
+  .product-container {
+      margin-top: 1px;
+      background-color: #fff;
+      width: 100%;
+  }
+  .product-des {
+    width: 975px;
+    margin: 0 auto;
+    padding-top: 114px;
+}
+  .product-des .product-item {
+      display: flex;
+      align-items: center;
+      margin-top: 80px;
+  }
+  .product-des img {
+      width: 570px;
+      height: 350px;
+  }
+  .product-des .product-item:last-child .product-info {
+      padding-right: 100px;
+      padding-left: 0;
+  }
+  .product-des .product-info {
+      width: 305px;
+      padding-left: 100px;
+  }
+  .product-des .product-info .title {
+    font-size:20px;
+    font-weight:300;
+    color:rgba(20,20,20,1);
+    line-height:32px;
+    margin-bottom: 35px;
+  }
+  .product-des .product-info .text {
+    font-size:16px;
+    font-weight:200;
+    color:rgba(20,20,20,.7);
+    line-height:28px;
+  }
+  /* supportive */
+  .supportive {
+    margin-top: 13px;
+    background: url(./image/tree.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+  }
+  .product-mask {
+    width: 100%;
+    height: 100%;
+    background:rgba(20,20,20,.65);
+    overflow: hidden;
+  }
+  .product-content {
+    width: 720px;
+    height: 542px;
+    margin: 165px auto 93px;
+    position: relative;
+    top: 50px;
+  }
+  .introduction {
+    width:366px;
+    height:137px;
+    font-size:42px;
+    font-family:Montserrat-ExtraLight;
+    font-weight:200;
+    color:rgba(255,255,255,1);
+    line-height:52px;
+    text-align: center;
+  }
+  .detailed {
+    width:367px;
+    height:130px;
+    font-size:18px;
+    font-family:Montserrat-ExtraLight;
+    font-weight:200;
+    color:rgba(255,255,255,1);
+    line-height:28px;
+    opacity:0.7;
+    margin-top: 47px;
+  }
+  .product-button {
+    margin-top: 58px;
+  }
+  .product-button .button{
+    width:240px;
+    height:60px;
+    border:1px solid rgba(255,255,255,1);
+    border-radius:2px;
+  }
+  .white {
+    font-size:12px;
+    font-family:Montserrat-Light;
+    font-weight:300;
+    color:rgba(20,20,20,1);
+    background:rgba(255,255,255,1);
+  }
+  .none {
+    font-size:12px;
+    font-family:Montserrat-Light;
+    font-weight:300;
+    color:rgba(255,255,255,1);
+    background: none;
+    margin-left: 30px;
+  }
+  .product-ipad {
+    width:645px;
+    height:600px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    display: flex;
+    position: absolute;
+    right: -200px;
+    bottom: 100px;
+  }
+  .ipad {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 285px;
+    left: 20px;
+  }
+  .product-ipad .ipad img {
+    width: 700px;
+    height: 560px;
+    position: absolute;
+    top: -265px;
+    left: 25px;
+  }
+  
